@@ -7,9 +7,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from "react-native-maps";
-import mapMarker from "../images/map-marker.png";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import mapMarker from "../images/map-marker.png";
 
 export default function OrphanagesMap() {
   const navigation = useNavigation();
