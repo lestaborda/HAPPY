@@ -89,7 +89,7 @@ export default function Orphanage() {
                   position={[orphanage.latitude, orphanage.longitude]}
                 />
               </Map>
-
+              
               <footer>
                 <a
                   target="_blank"
