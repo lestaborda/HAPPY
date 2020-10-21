@@ -18,7 +18,9 @@ function Landing() {
           <strong>Cascavel</strong>
           <span>Paraná</span>
         </div>
-
+        <Link to="/restrict" className="restrict-access">
+          <span>Acesso restrito</span>
+        </Link>
         <Link to="/app" className="enter-app">
           <FiArrowRight size="26" color="rgba(0, 0, 0, 0.6)" />
         </Link>

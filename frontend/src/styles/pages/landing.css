@@ -43,8 +43,8 @@
 
 .content-wrapper .location {
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 255px;
+  top: 15px;
 
   display: flex;
   flex-direction: column;
@@ -74,4 +74,28 @@
 
 .content-wrapper .enter-app:hover {
   background: #96feff;
+}
+
+.content-wrapper .restrict-access {
+  position: absolute;
+  width: 222px;
+  height: 56px;
+  right: 0;
+
+  background: #12D4E0;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content-wrapper .access-restrict:hover {
+  background: #96FEFF;
+  color: #15C3D6;
 }
